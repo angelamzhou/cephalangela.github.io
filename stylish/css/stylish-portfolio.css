@@ -13,6 +13,7 @@ body {
 }
 
 .vert-text h1 {
+  font-family: 'Ubuntu', sans-serif;
   padding: 0;
   margin: 0;
   font-size: 4.5em;
