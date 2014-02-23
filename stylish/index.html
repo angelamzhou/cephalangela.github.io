@@ -18,10 +18,43 @@
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
 </head>
 
-<body>
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
 
+      <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="#page-top">
+                    <i class="fa fa-play-circle"></i>  <span class="light">Innovation</span> Intercollegiate
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#download">Download</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
     <!-- Side Menu -->
-    <a id="menu-toggle" href="#" class="btn btn-primary btn-lg toggle"><i class="fa fa-bars"></i></a>
+   <!-- <a id="menu-toggle" href="#" class="btn btn-primary btn-lg toggle"><i class="fa fa-bars"></i></a>
     <div id="sidebar-wrapper">
         <ul class="sidebar-nav">
             <a id="menu-close" href="#" class="btn btn-default btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
@@ -38,7 +71,7 @@
             <li><a href="#contact">Contact</a>
             </li>
         </ul>
-    </div>
+    </div>-->
     <!-- /Side Menu -->
 
     <!-- Full Page Image Header Area -->
@@ -47,7 +80,12 @@
             <h1>Innovation Intercollegiate</h1>
             <h3>
                 <em>Sharing</em> the <strong>science</strong>.</h3>
-             <a href="#mission" class="btn btn-success">Find Out More</a>
+             <!--<a href="#mission" class="btn btn-success">Find Out More</a>-->
+                                  <div class="page-scroll">
+                            <a href="#mission" class="btn btn-circle">
+                                <i class="fa fa-angle-double-down animated"></i>
+                            </a>
+                        </div>
         </div>
     </div>
     <!-- /Full Page Image Header Area -->
@@ -217,6 +255,7 @@ But that’s not enough. We can do more when we join together, and we’re going
     <!-- /Footer -->
 
     <!-- JavaScript -->
+      <script src="js/grayscale.js"></script>
     <script src="js/jquery-1.10.2.js"></script>
     <script src="js/bootstrap.js"></script>
 
