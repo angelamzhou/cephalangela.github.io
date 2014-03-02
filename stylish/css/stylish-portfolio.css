@@ -194,8 +194,8 @@ i.service-icon {
 
 /* Map */
 
-.map {
-  height: 500px;
+#map {
+  height: 75%;
 }
 
 /* Footer */
@@ -232,7 +232,7 @@ i.scroll:hover {
 	background: url(../img/callout.jpg) no-repeat center center scroll; 
   }
 
-  .map {
+  #map {
 	height: 75%;
   }
 
