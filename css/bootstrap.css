@@ -5829,3 +5829,48 @@ td.visible-print {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+.btn-kickstarter { 
+  color: #0B1902; 
+  background-color: #76CC1E; 
+  border-color: #76CC1E; 
+} 
+ 
+.btn-kickstarter:hover, 
+.btn-kickstarter:focus, 
+.btn-kickstarter:active, 
+.btn-kickstarter.active, 
+.open .dropdown-toggle.btn-kickstarter { 
+  color: #0B1902; 
+  background-color: #84E324; 
+  border-color: #76CC1E; 
+} 
+ 
+.btn-kickstarter:active, 
+.btn-kickstarter.active, 
+.open .dropdown-toggle.btn-kickstarter { 
+  background-image: none; 
+} 
+ 
+.btn-kickstarter.disabled, 
+.btn-kickstarter[disabled], 
+fieldset[disabled] .btn-kickstarter, 
+.btn-kickstarter.disabled:hover, 
+.btn-kickstarter[disabled]:hover, 
+fieldset[disabled] .btn-kickstarter:hover, 
+.btn-kickstarter.disabled:focus, 
+.btn-kickstarter[disabled]:focus, 
+fieldset[disabled] .btn-kickstarter:focus, 
+.btn-kickstarter.disabled:active, 
+.btn-kickstarter[disabled]:active, 
+fieldset[disabled] .btn-kickstarter:active, 
+.btn-kickstarter.disabled.active, 
+.btn-kickstarter[disabled].active, 
+fieldset[disabled] .btn-kickstarter.active { 
+  background-color: #76CC1E; 
+  border-color: #76CC1E; 
+} 
+ 
+.btn-kickstarter .badge { 
+  color: #76CC1E; 
+  background-color: #0B1902; 
+}

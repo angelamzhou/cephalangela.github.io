@@ -185,7 +185,10 @@ i.service-icon {
   margin: 0 auto;
 }
 
-
+#more {
+  background: #0a5175;
+  color: #fff;
+}
 /* Call to Action */
 
 .call-to-action {
